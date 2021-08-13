@@ -1,0 +1,23 @@
+<html>
+<title> Svvv Bot </title>
+<body style="background-color:lavender;">
+<marquee>
+<h1> <b>Welcome</b> </h1>
+
+</marquee>
+<center> <h1>This chat bot helps U to enquire information about SVVV</h1></center>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "ca6e53da-72e9-420b-8b88-0702d109e893", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "88746681-daa2-498c-843a-7040759a2a7a", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
